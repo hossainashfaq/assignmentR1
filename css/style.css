@@ -22,6 +22,7 @@ body {
 
 .paragraph-center {
     padding: 0% 23%;
+    text-align: center;
 }
 
 .help-now {
@@ -92,4 +93,51 @@ a {
     width: 50%;
     margin-bottom: 30px;
     background-color: antiquewhite;
+}
+
+.our-donation {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.don-plans {
+    display: flex;
+    margin-top: 30px;
+    padding: 0px 10%;
+}
+
+#plan1 {
+    border: 0px solid white;
+    border-radius: 5px;
+    background-color: #4f9da61f;
+    padding: 70px 0px;
+    margin-right: 40px;
+    padding-left: 20px;
+}
+
+#plan2 {
+    border: 0px solid white;
+    border-radius: 5px;
+    background-color: #4f9da61f;
+    padding: 70px 0px;
+    margin-right: 40px;
+    padding-left: 20px;
+}
+
+#plan3 {
+    border: 0px solid white;
+    border-radius: 5px;
+    background-color: #4f9da61f;
+    padding: 70px 0px;
+    padding-left: 20px;
+}
+
+.extension {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#ext-image {
+    width: 100%;
+    height: 70%;
 }
