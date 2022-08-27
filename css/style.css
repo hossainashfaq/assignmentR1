@@ -1,0 +1,46 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#first-heading {
+    margin-top: 0%;
+    margin-bottom: 0px;
+    padding-top: 150px;
+}
+
+#second-heading {
+    margin: 0px;
+}
+
+#paragraph-center {
+    padding: 0% 20%;
+}
+
+.help-now {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-image: url(/image/helpnow.png);
+    background-size: cover;
+    padding-bottom: 12%;
+}
+
+.help-btn {
+    border: 0px solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: tomato;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
