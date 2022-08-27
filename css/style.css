@@ -1,24 +1,27 @@
 body {
     font-family: 'Poppins', sans-serif;
+    /* Google Font Poppins */
     margin: 0%;
 }
 
-h1 {
+/* h1 {
     font-size: 60px;
-}
+} */
 
 #first-heading {
     margin-top: 0%;
     margin-bottom: 0px;
     padding-top: 150px;
+    font-size: 60px;
 }
 
 #second-heading {
     margin: 0px;
+    font-size: 60px;
 }
 
-#paragraph-center {
-    padding: 0% 20%;
+.paragraph-center {
+    padding: 0% 23%;
 }
 
 .help-now {
@@ -43,4 +46,50 @@ a {
     text-decoration: none;
     color: white;
     font-weight: 500;
+}
+
+.donation-plan {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.donate-amount {
+    margin-bottom: 30px;
+}
+
+.amount-btn {
+    padding: 40px 25px;
+    border: 0px solid gray;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0% 10px;
+    color: gray;
+}
+
+#highlight-btn {
+    padding: 40px 25px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    background-color: rgba(236, 52, 20, 0.192);
+    color: tomato;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0% 10px;
+}
+
+.input-amount {
+    margin-top: 25px;
+    text-align: center;
+    border: 0px solid white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+.hr-line {
+    width: 50%;
+    margin-bottom: 30px;
+    background-color: antiquewhite;
 }
