@@ -133,11 +133,27 @@ a {
 }
 
 .extension {
+    text-align: center;
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
+
 #ext-image {
-    width: 100%;
+    width: 70%;
     height: 70%;
+}
+
+.get-updates {
+    text-align: center;
+}
+
+.subcribe-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid gray;
+    background-color: #4f9da61f;
+    padding: 30px 40px;
+    margin: 40px 350px;
 }
