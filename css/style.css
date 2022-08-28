@@ -4,10 +4,6 @@ body {
     margin: 0%;
 }
 
-/* h1 {
-    font-size: 60px;
-} */
-
 #first-heading {
     margin-top: 0%;
     margin-bottom: 0px;
@@ -105,36 +101,30 @@ a {
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-    padding: 0px 10%;
+    padding: 0px 100px;
 }
 
 #plan1 {
     border: 0px solid white;
     border-radius: 5px;
     background-color: #4f9da61f;
-    padding: 60px 0px;
+    padding: 60px 20px;
     margin-right: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 #plan2 {
     border: 0px solid white;
     border-radius: 5px;
-    background-color: #4f9da61f;
-    padding: 60px 0px;
+    background-color: #a64fa21f;
+    padding: 60px 20px;
     margin-right: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 #plan3 {
     border: 0px solid white;
     border-radius: 5px;
-    background-color: #4f9da61f;
-    padding: 60px 0px;
-    padding-left: 20px;
-    padding-right: 20px;
+    background-color: #c2d4214d;
+    padding: 60px 20px;
 }
 
 .extension {
