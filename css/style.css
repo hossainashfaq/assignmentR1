@@ -102,6 +102,8 @@ a {
 
 .don-plans {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 30px;
     padding: 0px 10%;
 }
@@ -110,26 +112,29 @@ a {
     border: 0px solid white;
     border-radius: 5px;
     background-color: #4f9da61f;
-    padding: 70px 0px;
+    padding: 60px 0px;
     margin-right: 40px;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 #plan2 {
     border: 0px solid white;
     border-radius: 5px;
     background-color: #4f9da61f;
-    padding: 70px 0px;
+    padding: 60px 0px;
     margin-right: 40px;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 #plan3 {
     border: 0px solid white;
     border-radius: 5px;
     background-color: #4f9da61f;
-    padding: 70px 0px;
+    padding: 60px 0px;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .extension {
@@ -159,24 +164,25 @@ a {
     border-radius: 10px;
 }
 
-#sub-btn {
-    border: 0px solid tomato;
-    border-left: none;
-    border-radius: 5px;
-    background-color: tomato;
-    color: beige;
-    padding: 9px 15px;
-    margin-left: 0%;
-}
-
 #email-area {
     border: 0px solid white;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     color: antiquewhite;
-    padding: 10px 15px;
-    margin-right: 0%;
+    padding: 12px 0px;
+    padding-left: 15px;
+    padding-right: 80px;
+}
+
+#sub-btn {
+    border: 0px solid tomato;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: tomato;
+    color: white;
+    padding: 12px 30px;
 }
 
 .footer {
